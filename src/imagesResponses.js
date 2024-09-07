@@ -1,5 +1,6 @@
 const fs = require('fs'); // pull in the file system module
 //very similar to htmlResponses, used different content-type on writeHead statement
+//otherwise, same code
 
 const image = fs.readFileSync(`${__dirname}/../client/spongegar.png`);
 
